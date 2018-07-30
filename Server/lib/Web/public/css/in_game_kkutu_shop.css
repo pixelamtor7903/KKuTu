@@ -44,9 +44,15 @@
 	}
 
 /* NIK */
-.x-gm .users-name::before{ content: "[GM]"; color: #2F77D9; text-shadow: 0px 0px 2px #2AF; }
-.chat-item>.x-gm::before{ content: "[GM]"; color: #2F77D9; text-shadow: 0px 0px 2px #2AF; }
-.room-user-title>.x-gm::before{ content: "[GM]"; color: #2F77D9; text-shadow: 0px 0px 2px #2AF; }
+.x-gm .users-name::before{ content: "[운영자]"; color: #2F77D9; text-shadow: 0px 0px 2px #2AF; }
+.chat-item>.x-gm::before{ content: "[운영자]"; color: #2F77D9; text-shadow: 0px 0px 2px #2AF; }
+.room-user-title>.x-gm::before{ content: "[운영자]"; color: #2F77D9; text-shadow: 0px 0px 2px #2AF; }
+.x-yt .users-name::before{ content: "[YT]"; color: #FF3333(179, 255, 0); text-shadow: 0px 0px 2px #FF3333; }
+.chat-item>.x-yt::before{ content: "[YT]"; color: #FF3333; text-shadow: 0px 0px 2px #FF3333; }
+.room-user-title>.x-yt::before{ content: "[YT]"; color: #FF3333; text-shadow: 0px 0px 2px #FF3333; }
+.x-vip .users-name::before{ content: "[VIP]"; color: #FFA533(179, 255, 0); text-shadow: 0px 0px 2px #FFA533; }
+.chat-item>.x-vip::before{ content: "[VIP]"; color: #FFA533; text-shadow: 0px 0px 2px #FFA533; }
+.room-user-title>.x-vip::before{ content: "[VIP]"; color: #FFA533; text-shadow: 0px 0px 2px #FFA533; }
 
 .x-red_name{ color: #FF3333; }
 .x-orange_name{ color: #FFA533; }

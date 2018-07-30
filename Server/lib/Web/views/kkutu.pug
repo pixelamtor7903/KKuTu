@@ -188,12 +188,14 @@ block Middle
 		div.dialog-bar
 			h4= L('roundTime')
 			select#room-time
+				option(value=5, style='color: #FF4444')
 				option(value=10, style='color: #FF4444')
 				option(value=30)
 				option(value=60, selected)
 				option(value=90)
 				option(value=120)
 				option(value=150)
+				option(value=3000, style='color: #2F77D9')
 		div.dialog-bar(style='height: 59px;')
 			h4(style='height: 45px;')= L('misc')
 			- for(var i in locals.OPTIONS)

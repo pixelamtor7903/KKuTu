@@ -1,2 +1,13 @@
 This is an error log file of the game server.
 You may use like `tail -f KKUTU_ERROR.log` to watch this.
+:8496 [2018-7-21 18:13:29] ERROR: error: 관리자 요청에 의해서 연결을 끝냅니다
+error: 관리자 요청에 의해서 연결을 끝냅니다
+    at Connection.parseE (D:\kkutu\kkutu\Server\lib\node_modules\pg\lib\connection.js:567:11)
+    at Connection.parseMessage (D:\kkutu\kkutu\Server\lib\node_modules\pg\lib\connection.js:391:17)
+    at Socket.<anonymous> (D:\kkutu\kkutu\Server\lib\node_modules\pg\lib\connection.js:129:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
